@@ -70,3 +70,6 @@ while True:
         break
 video.release()
 cv2.destroyAllWindows()
+
+print('Shape of FACES:', FACES.shape)
+print('Length of LABELS:', len(LABELS))
